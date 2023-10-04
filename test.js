@@ -1,1 +1,5 @@
-console.log("hello doggy")
+function helloworld() {
+    return "hello world"
+}
+
+module.exports = {helloworld}
