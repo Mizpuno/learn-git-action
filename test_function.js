@@ -8,7 +8,7 @@ if (helloworld() === "hello world") {
 }
 
 // if 1+1 == 2 is true
-if (oneplus(1) === 2) {
+if (oneplus(1) === 1) {
 
 } else {
     console.log(1)
