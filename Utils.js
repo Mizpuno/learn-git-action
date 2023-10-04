@@ -6,4 +6,4 @@ function oneplus(x){
     return 1+x
 }
 
-module.exports = {helloworld}
+module.exports = {helloworld, oneplus}
