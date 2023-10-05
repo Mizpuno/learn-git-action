@@ -1,0 +1,2 @@
+docker build . -t node-web-app
+docker run --name test -p 3000:3000 node
