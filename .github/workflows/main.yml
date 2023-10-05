@@ -28,5 +28,6 @@ jobs:
         if [ $exit_code -ne 0 ]; then
           echo "Error: The Node.js script failed with exit code $exit_code"
           # You can add more error-handling actions here if needed
+          cat log.txt
           exit 1  # Exit the workflow with an error code
         fi
