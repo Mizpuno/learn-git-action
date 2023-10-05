@@ -11,7 +11,7 @@ if (helloworld() === "hello world") {
 }
 
 // if 1+1 == 2 is true
-if (oneplus(1) === 1) {
+if (oneplus(1) === 2) {
 
 } else {
     str += "error at: oneplus(1) <-- 1 --> must be 2!"
