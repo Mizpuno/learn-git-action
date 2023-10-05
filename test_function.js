@@ -23,7 +23,6 @@ if (oneplus(2) === 3) {
 } else {
     str += "error at: oneplus(2) <-- 2 --> must be 3!"
     console.log(1)
-    return
 }
 
 fs.writeFileSync('log.txt', str)
